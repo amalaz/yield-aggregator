@@ -1,6 +1,6 @@
 pragma solidity ^0.5.16;
 
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "@openzeppelin-solidity/contracts/math/SafeMath.sol";
 
 // Interface for ERC20 DAI contract
 interface DAI {
