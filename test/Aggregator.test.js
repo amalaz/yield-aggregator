@@ -1,8 +1,8 @@
 const Aggregator = artifacts.require("./Aggregator")
 const daiABI = require("../mint-dai/dai-abi.json")
-const cDAI_ABI = require("../src/helpers/cDai-abi.json")
-const AAVE_ABI = require("../src/helpers/aaveLendingPool-abi.json")
-const getAPY = require("../src/helpers/calculateAPY")
+const cDAI_ABI = require("../helpers/cDai-abi.json")
+const AAVE_ABI = require("../helpers/aaveLendingPool-abi.json")
+const getAPY = require("../helpers/calculateAPY")
 
 require('chai')
     .use(require('chai-as-promised'))
